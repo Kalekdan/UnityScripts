@@ -4,13 +4,17 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    [SerializeField]
-    private float _xLerpSpeed, _yLerpSpeed;
-    
-    [SerializeField]
+    [SerializeField] private float _xLerpSpeed, _yLerpSpeed;
+    [SerializeField] private GameObject _initialFocus;
+
     private static GameObject[] _pointsOfFocus;
 
     private Vector2 _targetPos;
+
+    private void Start()
+    {
+        setPointsOfFocus(new[] {_initialFocus});
+    }
 
     private void Update()
     {
@@ -40,7 +44,7 @@ public class CameraFollow : MonoBehaviour
         var newX = Mathf.Lerp(transform.position.x, target.x, _xLerpSpeed * Time.deltaTime);
         var newY = Mathf.Lerp(transform.position.x, target.x, _yLerpSpeed * Time.deltaTime);
         var newZ = transform.position.z;
-        
+
         transform.position = new Vector3(newX, newY, newZ);
     }
 
