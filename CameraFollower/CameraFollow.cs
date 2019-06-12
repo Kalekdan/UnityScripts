@@ -5,24 +5,18 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour
 {
     [SerializeField] private float _xLerpSpeed, _yLerpSpeed;
-    [SerializeField] private GameObject _initialFocus;
 
-    private static GameObject[] _pointsOfFocus;
+    [SerializeField] private GameObject[] _pointsOfFocus;
 
     private Vector2 _targetPos;
 
-    private void Start()
-    {
-        setPointsOfFocus(new[] {_initialFocus});
-    }
-
     private void Update()
     {
-        _targetPos = avgPosition(_pointsOfFocus);
-        lerpCamera(_targetPos);
+        _targetPos = AvgPosition(_pointsOfFocus);
+        LerpCamera(_targetPos);
     }
 
-    private Vector2 avgPosition(GameObject[] points)
+    private Vector2 AvgPosition(GameObject[] points)
     {
         var xPos = 0.0f;
         var yPos = 0.0f;
@@ -39,22 +33,24 @@ public class CameraFollow : MonoBehaviour
         return new Vector2(xPos, yPos);
     }
 
-    private void lerpCamera(Vector2 target)
+    private void LerpCamera(Vector2 target)
     {
         var newX = Mathf.Lerp(transform.position.x, target.x, _xLerpSpeed * Time.deltaTime);
-        var newY = Mathf.Lerp(transform.position.x, target.x, _yLerpSpeed * Time.deltaTime);
+        var newY = Mathf.Lerp(transform.position.y, target.y, _yLerpSpeed * Time.deltaTime);
         var newZ = transform.position.z;
-
+        
         transform.position = new Vector3(newX, newY, newZ);
     }
 
-    public static GameObject[] getPointsOfFocus()
+    public GameObject[] getPointsOfFocus()
     {
         return _pointsOfFocus;
     }
 
-    public static void setPointsOfFocus(GameObject[] points)
+    public void SetPointsOfFocus(GameObject[] points)
     {
         _pointsOfFocus = points;
+        Debug.Log(_pointsOfFocus[0].name);
+
     }
 }
