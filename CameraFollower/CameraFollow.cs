@@ -50,7 +50,5 @@ public class CameraFollow : MonoBehaviour
     public void SetPointsOfFocus(GameObject[] points)
     {
         _pointsOfFocus = points;
-        Debug.Log(_pointsOfFocus[0].name);
-
     }
 }
