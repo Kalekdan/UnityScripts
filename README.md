@@ -13,6 +13,8 @@ If you notice an issue with an existing script, also log an issue with details o
  - Screen shake 2D - WIP
  - Screen shake 3D - WIP
  - Smooth zoom 2D - WIP
+ - Frame objects 2D - WIP
+ - Frame objects 3D - WIP
  - Side-scroller room camera 2D - WIP
  - Top-down room camera 2D - WIP
 
