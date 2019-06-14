@@ -1,4 +1,4 @@
-# Camera Follower
+# Camera Follower 2D
 
 ## About
 
