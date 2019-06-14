@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: Log a bug against a script
 title: ''
 labels: bug
 assignees: ''
