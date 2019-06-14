@@ -12,3 +12,7 @@ If you notice an issue with an existing script, also log an issue with details o
  - Screen shake 2D - WIP
  - Screen shake 3D - WIP
  - Smooth zoom 2D - WIP
+
+### Player controllers
+## Platforming
+ - Wall jump 2D - WIP
