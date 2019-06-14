@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraFollow : MonoBehaviour
+public class CameraFollow2D : MonoBehaviour
 {
     // Camera lerp speed - Higher values will mean camera travels
     // faster in that axis towards its target
