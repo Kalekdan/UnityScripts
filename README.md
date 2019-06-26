@@ -10,8 +10,8 @@ If you notice an issue with an existing script, also log an issue with details o
 ## Camera
  - [Camera follower 2D](/CameraFollow2D) - Makes the camera smoothly follow an object or set of multiple objects
  - Camera follower 3D - WIP
- - Screen shake 2D - WIP
- - Screen shake 3D - WIP
+ - Screen shake 2D - WIP - Adds a screen shake effect applied to position and rotation
+ - Screen shake 3D - WIP - Adds a screeb shake effect applied to rotation only
  - Smooth zoom 2D - WIP
  - Frame objects 2D - WIP
  - Frame objects 3D - WIP
@@ -27,7 +27,7 @@ If you notice an issue with an existing script, also log an issue with details o
  - Side-scroller movement 2D - WIP
  - Side-scroller dash 2D - WIP
 ### Jumps
- - Better jump 2D - WIP
+ - Better jump 2D - WIP - Implements better feeling jumping by moving away from realistic physics
  - Wall jump 2D - WIP
  - Coyote time - WIP - Allows the player to jump shortly after leaving a platform
 
