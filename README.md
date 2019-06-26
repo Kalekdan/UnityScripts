@@ -29,7 +29,7 @@ If you notice an issue with an existing script, also log an issue with details o
 ### Jumps
  - Better jump 2D - WIP
  - Wall jump 2D - WIP
- - Coyote jump 2D - WIP
+ - Coyote time - WIP - Allows the player to jump shortly after leaving a platform
 
 ## Other
  - Inventory system
