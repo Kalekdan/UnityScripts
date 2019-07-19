@@ -7,6 +7,12 @@ If you want a new script created, log a new issue for it and I may get around to
 If you notice an issue with an existing script, also log an issue with details of how to reproduce it.  
 *Note that I mostly develop in 2D so 3D scripts may take longer to be created.*
 
+## Using/Installing the scripts
+The scripts can be copied into your Unity project and should work without any further installation. Any exceptions/requirements of a script will be provided in the associated `README.md`.
+Each of the scripts has detailed use case instructions in a `README.md` file located in the same directory.
+
+# Scripts
+
 ## Camera
  - [Camera follower 2D](/CameraFollow2D) - Makes the camera smoothly follow an object or set of multiple objects
  - Camera follower 3D - WIP
