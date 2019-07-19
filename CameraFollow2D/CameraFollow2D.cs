@@ -1,7 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/**
+ * Camera controller script to make the camera (or any GameObject the script is attached to) 
+ * smoothly follow an object or set of objects in 2 dimensions
+ * 
+ * This script and more available at: https://github.com/Kalekdan/UnityScripts
+ */
 public class CameraFollow2D : MonoBehaviour
 {
     // Camera lerp speed - Higher values will mean camera travels

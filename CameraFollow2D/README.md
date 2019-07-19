@@ -14,3 +14,7 @@ This script makes the camera smoothly follow an object or a selection of objects
    - Using the function ```SetPointsOfFocus(GameObject[] points)```
 
 The camera will follow the average location of all the points of focus. If you want more weighting towards a specific object (i.e. the player), add multiple occurences of their GameObject to the array of points of focus.
+
+### Notes
+
+  - This script does not have to be used to make the camera follow objects, it can be attached to any GameObject and will make that smoothly follow the points of focus instead.
