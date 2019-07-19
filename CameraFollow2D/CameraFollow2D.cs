@@ -21,6 +21,9 @@ public class CameraFollow2D : MonoBehaviour
 
     private Vector2 _targetPos;
 
+    // Called every frame
+    // - Updates the camera target to the average position of the _pointsOfFocus
+    // - Smoothly lerps the camera towards the new target position 
     private void Update()
     {
         _targetPos = AvgPosition(_pointsOfFocus);
@@ -58,7 +61,7 @@ public class CameraFollow2D : MonoBehaviour
 
     // Returns the array of GameObjects which are the focus points
     // Can be useful if you wish to add a single item to the existing array of points
-    public GameObject[] getPointsOfFocus()
+    public GameObject[] GetPointsOfFocus()
     {
         return _pointsOfFocus;
     }
