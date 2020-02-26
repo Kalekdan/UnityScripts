@@ -16,7 +16,7 @@ Each of the scripts has detailed use case instructions in a `README.md` file loc
 ## Camera
  - [Camera follower 2D](/CameraFollow2D) - Makes the camera smoothly follow an object or set of multiple objects
  - Camera follower 3D - WIP
- - Screen shake 2D - WIP - Adds a screen shake effect applied to position and rotation
+ - [Screen shake 2D](/Screenshake2D) - Adds a screen shake effect applied to position and rotation
  - Screen shake 3D - WIP - Adds a screen shake effect applied to rotation only
  - Smooth zoom 2D - WIP
  - Frame objects 2D - WIP
