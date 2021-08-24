@@ -26,7 +26,7 @@ Each of the scripts has detailed use case instructions in a `README.md` file loc
 
 ## Player controllers
 ### Top-down
- - Top-down movement 2D - WIP
+ - [Top-down movement 2D](/TopDownMovement2D) - Makes a player GameObject move vertically and horizontally based on user input
  - Rotate to face mouse 2D - WIP
  - Top-down dash 2D - WIP
 ### Side-scroller
